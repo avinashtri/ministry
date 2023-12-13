@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="Style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Header section</title>
 </head>
@@ -15,28 +16,65 @@
 <body>
 
     <header class="header">
+        <div class="">
+            <ul class="topbar">
+                <li class="Skipcontent"><a href="#">Skip to the main content</a></li>
+                <li class="screenreader"><a href="#">Screen Reader Access</a></li>
+                <div class="sociallinkbtn">
+                    <ul>
+                        <li>
+                            <button class="sociallinkbtn"> <a href="#">Dropdown Link</a></button>
+                            <ul class="sociallinkbtn-scroll">
+                                <li><i class="fa fa-facebook-square"></i></li>
+                                <li><i class='fab fa-twitter'></i></li>
+                                <li><i class="fa fa-youtube-play"></i></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+                <li class="fontmodification"><a class="fontdecrease test" title="Decrease font size" href="javascript:void(0);">A-</a></li>
+                <li class="resetfont"><a class="fontreset" title="Reset font size" href="javascript:void(0);">A</a></li>
+                <li><a class="fontincrease" title="Increase font size" href="javascript:void(0);">A+</a></li>
+                <li>
+                    <span>
+                        <div class="contrast-icon">
+                            <a href="javascript:void(0);" class="high-contrast light current" title="Normal Contrast"
+                                style="display: none;">A</a>
+                            <a href="javascript:void(0);" class="high-contrast dark" title="High Contrast">A</a>
+                        </div>
+                    </span>
+                </li>
+                <li class="sitemaplogo">
+                    <i class="fa fa-sitemap" style="font-size: 22px;color: aliceblue;"></i>
+
+                </li>
+            </ul>
+
+        </div>
         <div class="headBox">
             <div id="logoBox">
-                <img style="" class="btMainLogo" src="https://shipmin.gov.in/sites/default/files/national-embelum.png" alt="Ministry of Ports,Shipping and Waterways">
-                <!-- <h1>पत्तन,पोत परिवहन और जलमार्ग मंत्रालय
-                    <br />Ministry of Ports, Shipping and Waterways<br /><small class="text-left" style="">
-
-                        Government of India
-                    </small> -->
-                </h1>
-            </div>
-            <div id="logo name">
-
-                <div class="introduction">
-                    <p class="right-aligned"> परिवहन और जलमार्ग मंत्रालय
-                        <br />Ministry of Ports, Shipping and Waterways<br />
-                    </p><small class="text-left" style="font-size: 17px;letter-spacing: 2px;padding-top: 6px;">
-
+                <img style="" class="btMainLogo" src="https://shipmin.gov.in/sites/default/files/national-embelum.png" alt="Ministry of Ports, Shipping and Waterways">
+                <!--
+                <h1>पत्तन,पोत परिवहन और जलमार्ग मंत्रालय
+                    <br />Ministry of Ports, Shipping and Waterways<br />
+                    <small class="text-left" style="">
                         Government of India
                     </small>
-                </div>
+                </h1>
+                -->
+            </div>
+
+            <div class="introduction">
+                <span class="right-aligned"> परिवहन और जलमार्ग मंत्रालय
+                    <br />Ministry of Ports, Shipping and Waterways<br />
+                </span>
+                <small class="text-left" style="font-size: 17px; letter-spacing: 2px; padding-top: 6px;">
+                    Government of India
+                </small>
             </div>
         </div>
+
 
 
     </header>

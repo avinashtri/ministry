@@ -29,24 +29,26 @@ div#logoBox img {
 }
 
 div#logo\ name {
-    margin-left: 65px;
+    /* margin-left: 65px;
     margin-top: -100px;
     font-family: serif;
     padding: 0px 10px 0px;
     filter: brightness(100);
     font-size: 13px;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
 .introduction {
-    margin-left: -10px;
-    margin-top: 13px;
+    margin-left: 65px;
+    margin-top: -84px;
     font-family: serif;
+    padding: 0px 2px 0px;
     filter: brightness(100);
     font-size: 21px;
-    box-sizing: border-box;
+    box-sizing: unset;
     display: table;
-    color: #27374D;
+    color: antiquewhite;
+    font-weight: 600;
 }
 
 p.right-aligned {
@@ -54,3 +56,30 @@ p.right-aligned {
     color: #27374D;
     font-weight: 600;
 }
+
+.topbar {
+    float: right;
+    list-style: none;
+    display: flex;
+}
+
+ul.topbar li {
+    padding: 10px;
+    margin: auto;
+    margin-right: 15px;
+}
+
+ul.topbar li a {
+    color: #dcdde1;
+}
+
+button.sociallinkbtn {
+    margin-top: 8px;
+}
+
+button.sociallinkbtn {
+    border-block: revert-layer;
+    background-color: black;
+}
+
+ul.sociallinkbtn-scroll li::after {}
